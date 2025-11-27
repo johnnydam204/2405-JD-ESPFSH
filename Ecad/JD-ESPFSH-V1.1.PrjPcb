@@ -44,7 +44,6 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=CH340C
 
 [Preferences]
 PrefsVaultGUID=
@@ -108,11 +107,11 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=4
 Variation1=Designator=U1|UniqueId=\MNBIZASU|Kind=2|AlternatePart=CH340C|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\02-GIT\LIB\2510-ADLibEP\Ecad\Project Outputs for ADLibEP\ADLibEP.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=ICSINT0008 SOIC16 CH340C|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=ADLibEP.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC-16M-1.75H|AltLibLink_IsSameFootprint=True
-ParamVariation1=ParameterName=CERT|VariantValue=NA
+ParamVariation1=ParameterName=Comment|VariantValue=CH340C
 ParamDesignator1=U1
-ParamVariation2=ParameterName=CLASS|VariantValue=B
+ParamVariation2=ParameterName=CERT|VariantValue=NA
 ParamDesignator2=U1
-ParamVariation3=ParameterName=Comment|VariantValue=CH340C
+ParamVariation3=ParameterName=CLASS|VariantValue=B
 ParamDesignator3=U1
 ParamVariation4=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator4=U1
@@ -849,36 +848,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

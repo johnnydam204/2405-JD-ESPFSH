@@ -28,3 +28,10 @@ ESP8266/ESP32 Programmer
 - Thêm đầu ra XH2.54-6P để có thể sử dụng dây cắm dạng hàng ngang
 - Thêm công tắc bật tắt chế độ cấp nguồn cho target chip
 - Thêm lỗ vít 3.2mm để sử dụng vít bắt PCB vào JIG nếu cần thiết
+
+### V1.2
+
+- Chuyển đổi sử dụng linh kiện từ thư viện Intlib sang DbLib
+- Thay đổi cổng kết nối USB từ TYPE-B (cổng máy in) sang MINI-B để cho mạch nhỏ gọn hơn
+- Bỏ đầu ra IDC-6 (ít dùng), thay bằng JP2.54-6P để cắm cùng dây cắm.
+- Thay tụ đầu vào và ra của khối nguồn LDO từ Ceramic sang Tantalum để tăng trở kháng đầu ra, ổn định đầu ra.
